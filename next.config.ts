@@ -5,5 +5,6 @@ const nextConfig: NextConfig = {
     ppr: 'incremental'
   }
 };
- 
+ export const dynamic = 'force-dynamic';
+
 export default nextConfig;
